@@ -28,15 +28,15 @@ class  Restaurante:
 restaurante_gaucho = Restaurante(nome = 'Bah', categoria = 'Comida Gaúcha', capacidade = 100, nota_avaliacao = 5)
 
 # Modifique a classe Restaurante adicionando um construtor que aceita nome e categoria como parâmetros e inicia ativo como False por padrão. Crie uma instância utilizando o construtor.
-class Restaurantes:
-    def __init__(self, nome, categoria, ativo=False, capacidade, nota_avaliacao):
-        self.nome = nome
-        self.categoria = categoria
-        self.ativo = ativo
-        self.capacidade = capacidade
-        self.nota_avaliacao = nota_avaliacao
+# class Restaurantes:
+#     def __init__(self, nome, categoria, ativo=False, capacidade, nota_avaliacao):
+#         self.nome = nome
+#         self.categoria = categoria
+#         self.ativo = ativo
+#         self.capacidade = capacidade
+#         self.nota_avaliacao = nota_avaliacao
 
-novo_restaurante = Restaurantes(nome='Santa Marmita', categoria='Fast Food')
+# novo_restaurante = Restaurantes(nome='Santa Marmita', categoria='Fast Food')
 
 
 # Crie uma classe chamada Cliente e pense em 4 atributos. Em seguida, instancie 3 objetos desta classe e atribua valores aos seus atributos através de um método construtor.
